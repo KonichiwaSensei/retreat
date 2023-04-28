@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "From the Woods";
+  src: url("fonts/FromtheWoods-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background: white url("img/bg.jpg") center fixed;
+  background-size: 100% 50%;
+  color: white;
+}
+
+h1 {
+  font-family: "From the Woods", serif;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.main-container,
+.sign-up__container {
+  margin: 0 auto;
+  width: 40em;
+}
+
+.main-container__intro {
+  margin-bottom: 12rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-container__bubble {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  padding: 2rem 3rem;
+  margin-top: -8rem;
+  background-color: #4f6a13;
+  color: white;
+  text-align: center;
+}
+
+.main-container__bubble_position_right {
+  position: relative;
+  left: 20rem;
+}
+
+.main-container__bubble-heading {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.sign-up {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #2d4823;
+  text-align: center;
+}
+
+.sign-up__link {
+  color: #d3d3d3;
+}
